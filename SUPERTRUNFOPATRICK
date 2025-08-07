@@ -1,1 +1,65 @@
+#include <stdio.h>
 
+int main(){
+
+// Variáveis da primeira carta
+    char nomeCidade1[50];
+    char UF[2];
+    int populacao1;
+    float area1;
+    float pib1;
+    int pontosTuristicos1;
+    char nomeCidade2[50];
+    char UF2[2];
+    int populacao2;
+    float area2;
+    float pib2;
+    int pontosTuristicos2;
+
+     printf("=== SEJA BEM VINDO - DIGITE OS DADOS CONFORME SOLICITADO: ===\n");
+
+    printf("Digite o nome da cidade: "); 
+    scanf("%s", nomeCidade1);
+
+    printf("Digite o nome da unidade federativa: "); 
+    scanf("%s", UF);
+
+    printf("Digite a populacao: ");
+    scanf("%d",&populacao1);
+
+    printf("Digite a area: ");
+    scanf("%f",&area1);
+
+    printf("Digite o PIB: ");
+    scanf("%f",&pib1);
+
+    printf("Digite a quantidade de pontos turistícos: ");
+    scanf("%d",&pontosTuristicos1);
+
+    printf ("\n===========DIGITE OS DADOS DA SEGUNDA CARTA===================\n");
+    
+    printf("Digite o nome da cidade: "); 
+    scanf("%s", nomeCidade2);
+
+    printf("Digite o nome da unidade federativa: "); 
+    scanf("%s", UF2);
+
+    printf("Digite a populacao: ");
+    scanf("%d",&populacao2);
+
+    printf("Digite a area: ");
+    scanf("%f",&area2);
+
+    printf("Digite o PIB: ");
+    scanf("%f",&pib2);
+
+    printf("Digite a quantidade de pontos turistícos: ");
+    scanf("%d",&pontosTuristicos2);
+
+   printf ("\n===========SUPER TRUMP FINISHED - GOOD BYE!!!!!!===================\n");
+
+   return (0);
+
+    
+
+}
